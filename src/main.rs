@@ -7,5 +7,5 @@ mod core;
 use crate::core::basics;
 
 fn main() {
-    basics::closures::find_user_with_cloures();
+    basics::enums::complex_enum();
 }

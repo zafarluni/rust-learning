@@ -40,3 +40,9 @@ pub fn find_user_with_cloures() {
 
     println!("User: {:?}", user1);
 }
+
+pub fn test_combanitorics() {
+    let vect = vec![1, 2, 3, 4, 5];
+    let result: Vec<_> = vect.iter().map(|x| x * 2).filter(|x| x > &6).collect();
+    println!("values: {:?}", result);
+}
